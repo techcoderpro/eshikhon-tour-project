@@ -24,7 +24,7 @@ const Login = () => {
 
             const decodedToken = jwtDecode(token); 
             if (decodedToken.role === 'visitor') { 
-                window.location.href = 'http://localhost:3000/'; 
+                window.location.href = 'https://eshikhon-tour-project-frontend-project.onrender.com'; 
                 return; 
             } 
 
