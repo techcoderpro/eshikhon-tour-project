@@ -17,7 +17,6 @@ function paymentController(req, res, next) {
         fail_url: `https://eshikhon-tour-project-frontend-project.onrender.com/fail/${transactionID}`,
         cancel_url: `https://eshikhon-tour-project-frontend-project.onrender.com/cancel/${transactionID}`,
         ipn_url: 'https://eshikhon-tour-project-frontend-project.onrender.com',
-        const frontend_URL-'https://eshikhon-tour-project-frontend-project.onrender.com';
         shipping_method: 'Courier',
         product_name: 'Computer.',
         product_category: 'Tour & Fun',
