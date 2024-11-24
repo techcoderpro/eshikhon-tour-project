@@ -48,13 +48,13 @@ const Login = () => {
                 justifyContent: 'center', alignItems: 'center', 
             }}>
                 <div style={{
-                    border: '1px solid black', 
+                    border: '1px solid blue', 
                     padding: '20px', 
                     width: '400px',
                     borderRadius: '10px',
                     boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.25)'
                 }}>
-                    <h2 className='mb-8 text-center text-4xl'>
+                    <h2 className='mb-8 text-center text-4xl text-blue-900'>
                         Welcome!
                     </h2>
                     <form onSubmit={handleSubmit(onSubmit)}>

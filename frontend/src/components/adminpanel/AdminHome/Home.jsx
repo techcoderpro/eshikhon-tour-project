@@ -23,14 +23,14 @@ const Home = () => {
 
     return (
         <div className='flex justify-center items-center gap-5 h-full'>
-            <div className={`w-[40%] h-[400px] bg-red-400 rounded-xl p-5 flex items-center justify-center
-                border border-gray-500/30`}>
-                <h2 className='text-[50px] font-semibold'>
+            <div className={`w-[40%] h-[400px] bg-green-400 rounded-xl p-5 flex items-center justify-center
+                border border-green-500/30`}>
+                <h2 className='text-[50px] font-semibold '>
                     Users: {data.users}
                 </h2>
             </div>
-            <div className={`w-[40%] h-[400px] bg-lime-400/60 rounded-xl p-5 flex items-center justify-center
-                border border-gray-500/30`}>
+            <div className={`w-[40%] h-[400px] bg-indigo-400/60 rounded-xl p-5 flex items-center justify-center
+                border border-green-500/30`}>
                 <h2 className='text-[50px] font-semibold'>
                     Tours: {data.tours}
                 </h2>

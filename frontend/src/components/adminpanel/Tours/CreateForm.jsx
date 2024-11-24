@@ -16,7 +16,7 @@ const CreateForm = () => {
 
     return (
         <div className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-lg">
-            <h2 className="text-2xl font-bold mb-6 text-center">Booking Form</h2>
+            <h2 className="text-2xl font-bold mb-6 text-center text-blue-800">Booking Form</h2>
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
 
                 {/* Location Field */}

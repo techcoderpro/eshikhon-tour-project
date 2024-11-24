@@ -18,13 +18,13 @@ const Tours = () => {
 
     return (
         <div className=''>
-            <button className='bg-orange-600 text-white rounded-lg px-6 py-2 mb-2'>
+            <button className='bg-green-400 text-white- rounded-lg px-6 py-2 mb-2'>
                 <Link to="/dashboard/create-tour">
                     Create Tour
                 </Link>
             </button>
             <div className='w-full'>
-                <h1 className='text-4xl mb-4 text-center'>
+                <h1 className='text-4xl mb-4 text-center text-indigo-700'>
                     Tours List
                 </h1>
 

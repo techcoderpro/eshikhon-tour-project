@@ -23,7 +23,7 @@ const Users = () => {
                     return (
                         <div 
                             key={user._id}
-                            className='flex gap-5 text-xl'>
+                            className='flex gap-5 text-xl text-purple-900 bg-amber-200'>
                             <h2 className='w-[250px]'>
                                 {user.email} 
                             </h2>

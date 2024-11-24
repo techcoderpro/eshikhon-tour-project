@@ -14,7 +14,7 @@ const Dashboard = () => {
                 <Menu />
             </div>
             <div className='flex-1 bg-gray-300'> 
-                <div className='h-[70px] bg-gray-900 border-b border-neutral-700 flex justify-end'>
+                <div className='h-[70px] bg-gray-900 border-b border-indigo-700 flex justify-end'>
                     <button 
                         className="bg-red-600 text-white text-xl px-6 py-2 m-2 rounded-lg"
                         onClick={() => { 

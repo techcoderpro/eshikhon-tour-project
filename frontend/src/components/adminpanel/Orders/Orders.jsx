@@ -20,7 +20,7 @@ const Orders = () => {
         <div>
             <table className="w-full table-auto shadow rounded-md overflow-hidden divide-y divide-gray-200">
                 <thead>
-                    <tr className="bg-gray-500 text-white text-left">
+                    <tr className="bg-green-500 text-white text-left">
                         <th className="p-3">Order ID</th>
                         <th className="p-3">Price</th>
                         <th className="p-3">User Email</th>

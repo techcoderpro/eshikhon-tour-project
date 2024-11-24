@@ -44,7 +44,7 @@ const BookTour = () => {
 
     return (
         <div className='w-[60%] border-x-2 border-neutral-800/5 mx-auto p-5'>
-            <h1 className='text-5xl text-orange-600 font-extrabold text-center'>
+            <h1 className='text-5xl text-blue-600 font-extrabold text-center'>
                 Book your favourite destination
             </h1>
 

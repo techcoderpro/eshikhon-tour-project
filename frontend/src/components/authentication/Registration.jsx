@@ -39,7 +39,7 @@ const Registration = () => {
                     borderRadius: '10px',
                     boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.25)'
                 }}>
-                    <h2 className='text-center text-3xl mb-10'>
+                    <h2 className='text-center text-3xl mb-10 text-blue-900'>
                         Registration
                     </h2> 
 

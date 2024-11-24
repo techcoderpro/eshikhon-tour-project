@@ -29,7 +29,7 @@ app.use((error, req, res, next) => {
     });
 });
 
-const PORT = 8000; 
+const PORT = process.env.PORT || 8000; 
 app.listen(PORT, function(err) {
     if(err) {
         console.log('Error starting server:', err);
